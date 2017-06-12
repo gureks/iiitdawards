@@ -503,7 +503,7 @@ h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
 }
 
-.about-us .tab-content {
+.tab-content {
 	background:#FFFFFF;
 	border-bottom: 1px solid #DDDDDD;
 	border-left: 1px solid #DDDDDD;
@@ -511,14 +511,14 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 25px;
 }
 
-.about-us .nav-tabs li a {
+.nav-tabs li a {
 	border-top:2px solid #f6f6f6;
 	color:#3fada8
 }
 
-.about-us .nav-tabs li.active a,
-.about-us .nav-tabs li.active a:hover,
-.about-us .nav-tabs li.active a:focus {
+.nav-tabs li.active a,
+.nav-tabs li.active a:hover,
+.nav-tabs li.active a:focus {
 	border-radius: 0;
 	border-top: 2px solid #3fada8;
 	color: #333333;
@@ -601,7 +601,8 @@ h1, h2, h3, h4, h5, h6 {
 ======================*/
 
 #services {
-  background-image: url("../images/silhouette.png");
+  background-image: url("../images/lowSizeDark.jpg");
+  background-size: cover;
   color:#fff;
   text-align:center;
   background-color:	#0A0A13;
@@ -670,23 +671,27 @@ h1, h2, h3, h4, h5, h6 {
 	position:relative
 }
 
-#our-team {
+#honour-roll {
 	background-color:#f6f6f6;
 	color:#43484E;
 }
 
-#our-team h2 {
+#honour-roll h2 {
 	color:#43484E;
 	margin-bottom:35px;
 }
 
-#our-team .team-members {
+#honour-roll .team-members {
 	padding:0;
 	margin-top:55px;
 	display:block;
 	overflow:hidden
 }
 
+
+#honour-roll .row.item{
+	margin: 2em -15px;
+}
 .single-member {
 	height:430px;
 	background-color:#43484E;
@@ -706,7 +711,7 @@ h1, h2, h3, h4, h5, h6 {
 	text-align:center
 }
 
-#our-team .socials i {
+#honour-roll .socials i {
 	background-color:#fff;
 	border-radius: 50%;
 	color: #43484E;
@@ -727,37 +732,37 @@ h1, h2, h3, h4, h5, h6 {
 	transition: all 0.5s ease-in-out;
 }
 
-#our-team .socials a i:hover {
+#honour-roll .socials a i:hover {
 	opacity:1;
 	color:#fff;
 	border:0
 }
 
-#our-team .socials a .fa-facebook:hover {
+#honour-roll .socials a .fa-facebook:hover {
 	background: #3B5997;
 }
 
-#our-team .socials a .fa-twitter:hover {
+#honour-roll .socials a .fa-twitter:hover {
   background:#29C5F6
 }
 
-#our-team .socials a .fa-pinterest:hover {
+#honour-roll .socials a .fa-pinterest:hover {
   background:#C61118
 }
 
-#our-team .socials a .fa-dribbble:hover {
+#honour-roll .socials a .fa-dribbble:hover {
   background:#FF5C93
 }
 
-#our-team .socials a .fa-linkedin:hover {
+#honour-roll .socials a .fa-linkedin:hover {
   background:#006DC0
 }
 
-#our-team .socials a .fa-google-plus:hover {
+#honour-roll .socials a .fa-google-plus:hover {
   background:#D13D2F
 }
 
-#our-team .socials a .fa-flickr:hover {
+#honour-roll .socials a .fa-flickr:hover {
   background:#7A797B
 }
 
