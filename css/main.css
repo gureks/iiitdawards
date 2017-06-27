@@ -42,9 +42,9 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	position: relative;
-	font-weight:400;
+	font-weight: 400;
 	background: #fff;
-	color:#43484E
+	color: #43484E
 }
 
 body  section{
@@ -1319,8 +1319,9 @@ h1, h2, h3, h4, h5, h6 {
 	padding:25px 0;
 	color:#43484E;
 	font-size:16px;
-	position:relative;
-	margin-top:1px;
+	position: relative;
+	margin-top: 1px;
+	box-shadow: 0 -1px 4px 0 rgba(0, 0, 0, 0.16);
 }
 
 #footer p {
