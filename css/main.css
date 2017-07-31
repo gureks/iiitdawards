@@ -713,7 +713,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 2em -15px;
 }
 .single-member {
-	height:430px;
+	height: auto;
 	background-color:#43484E;
 	border: 1px solid #43484E;
 	color: #f6f6f6;
