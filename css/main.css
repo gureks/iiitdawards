@@ -33,7 +33,38 @@
 =====================================
 */
 
+span.label.label-default {
+	cursor: pointer
+}
 
+.odd-row{
+	background-color: rgba(63,173,168,0.4);
+}
+.even-row{
+	background-color: rgba(255, 255, 255, 1);
+}
+
+table.alt-row {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #3fada8;
+	border-collapse: collapse;
+	width: 100%;
+}
+table.alt-row th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #3fada8;
+}
+table.alt-row td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #3fada8;
+}
 /*====================
 ======Typography=====
 ======================*/
